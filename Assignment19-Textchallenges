@@ -1,0 +1,144 @@
+Objective:
+
+The objective of this assignment is to analyze messy text data by identifying slang, emojis, typos, and other irregularities.
+
+It also helps in understanding the preprocessing steps required to clean the text for Natural Language Processing (NLP).
+
+Messy Sentences with Issues and Preprocessing
+
+Sentence: omg this movie is sooo gud 😍🔥
+
+Issues: slang (omg), typo (gud), repeated letters (sooo), emojis
+
+Preprocessing: expand slang, correct spelling, normalize repeated letters, remove emojis
+
+Sentence: lol i cant believe dis happened 😂
+
+Issues: slang (lol), typo (dis), emoji
+
+Preprocessing: convert slang to proper words, correct spelling, remove emoji
+
+Sentence: hey u coming 2 the party?? 🎉
+
+Issues: slang (u, 2), emoji, extra punctuation
+
+Preprocessing: replace slang, remove emoji, clean punctuation
+
+Sentence: ths is nt working properly
+
+Issues: typos (ths, nt)
+
+Preprocessing: spelling correction
+
+Sentence: brb will text u later 👍
+
+Issues: slang (brb, u), emoji
+
+Preprocessing: expand slang, remove emoji
+
+Sentence: i luv this song sooo much ❤️
+
+Issues: slang (luv), repeated letters, emoji
+
+Preprocessing: normalize words, remove emoji
+
+Sentence: wat r u doing rn??
+
+Issues: slang (wat, r, rn), punctuation
+
+Preprocessing: convert to proper words, clean punctuation
+
+Sentence: this place iz awsm 😎
+
+Issues: typo/slang (iz, awsm), emoji
+
+Preprocessing: spelling correction, remove emoji
+
+Sentence: cant w8 for the trip ✈️
+
+Issues: slang (w8), emoji
+
+Preprocessing: replace slang, remove emoji
+
+Sentence: heyyy how r uuuu??
+
+Issues: repeated letters, slang
+
+Preprocessing: normalize characters, replace slang
+
+Sentence: gr8 job bro 👏
+
+Issues: slang (gr8), emoji
+
+Preprocessing: replace slang, remove emoji
+
+Sentence: dis food is yummyyy 😋
+
+Issues: typo (dis), repeated letters, emoji
+
+Preprocessing: spelling correction, normalize text
+
+Sentence: idk what to do 😭
+
+Issues: slang (idk), emoji
+
+Preprocessing: expand slang, remove emoji
+
+Sentence: pls send d details asap
+
+Issues: slang (pls, d, asap)
+
+Preprocessing: replace with proper words
+
+Sentence: i hv no idea abt it
+
+Issues: slang (hv, abt)
+
+Preprocessing: expand words
+
+Sentence: thnk u sooo much 🙏
+
+Issues: typo (thnk), repeated letters, emoji
+
+Preprocessing: correct spelling, normalize text
+
+Sentence: omg!!! thats crazyyyy 🤯
+
+Issues: slang, repeated letters, emoji, punctuation
+
+Preprocessing: normalize text, remove emoji, clean punctuation
+
+Sentence: c u soon 😊
+
+Issues: slang (c u), emoji
+
+Preprocessing: convert to proper words, remove emoji
+
+Sentence: gud mrng everyone ☀️
+
+Issues: typos (gud, mrng), emoji
+
+Preprocessing: spelling correction, remove emoji
+
+Sentence: this is sooo boringgg 😴
+
+Issues: repeated letters, emoji
+
+Preprocessing: normalize characters, remove emoji
+
+Types of Problems in Text Data
+
+Messy text data usually contains several issues such as slang words, abbreviations, emojis, spelling mistakes, repeated characters, and unnecessary punctuation.
+
+These issues make it difficult for machines to understand the actual meaning of the text.
+
+Preprocessing Techniques
+Lowercasing – Convert all text into lowercase to maintain consistency.
+Slang Normalization – Replace informal words like “u” with “you”.
+Spell Correction – Correct incorrect words such as “gud” to “good”.
+Emoji Removal or Conversion – Remove emojis or convert them into meaningful text.
+Removing Punctuation – Clean unnecessary symbols like “!!!” or “??”.
+Normalization of Repeated Characters – Convert “soooo” to “so”.
+Tokenization – Split sentences into individual words.
+Stopword Removal – Remove common words like “is”, “the”, “and”.
+Stemming/Lemmatization – Convert words to their root form.

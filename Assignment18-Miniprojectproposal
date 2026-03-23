@@ -1,0 +1,58 @@
+1. Problem Statement
+
+In today’s competitive market, businesses need to understand their customers better to improve sales and customer satisfaction. However, large amounts of customer data make it difficult to identify meaningful patterns manually.
+This project aims to group customers into different segments based on their behavior and spending patterns, helping businesses make smarter marketing decisions.
+
+2. Dataset
+
+The project uses the Mall Customer Segmentation Dataset, which contains details such as:
+
+Customer ID
+Gender
+Age
+Annual Income
+Spending Score
+
+This dataset helps in analyzing customer behavior and identifying different groups.
+
+3. Algorithm Used
+
+The main algorithm used is:
+
+K-Means Clustering
+An unsupervised machine learning algorithm
+Groups data into K clusters based on similarity
+Works by:
+Choosing number of clusters (K)
+Assigning points to nearest cluster center
+Updating cluster centers (centroids)
+Repeating until convergence
+
+We may also use:
+
+Elbow Method → to find optimal number of clusters
+4. Methodology (Steps)
+Import dataset using Python (Pandas)
+Perform data preprocessing
+Select important features (Income, Spending Score)
+Use Elbow Method to find optimal K
+Apply K-Means clustering
+Visualize clusters using graphs (Matplotlib/Seaborn)
+Interpret customer groups
+5. Expected Output
+Customers divided into distinct groups, such as:
+High income – high spending (target customers)
+High income – low spending
+Low income – high spending
+Low income – low spending
+Graphical visualization of clusters
+Insights for business decision-making
+6. Tools & Technologies
+Python
+Pandas
+NumPy
+Matplotlib / Seaborn
+Scikit-learn
+7. Conclusion
+
+This project will help understand customer behavior and enable businesses to design targeted marketing strategies. It demonstrates the practical use of machine learning in real-world business problems.
