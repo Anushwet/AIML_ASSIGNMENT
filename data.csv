@@ -1,0 +1,11 @@
+Student,Study_Hours,Attendance_%,Assignment_Score,Final_Marks
+Asha,2.0,80.0,70.0,65.0
+Rahul,4.0,90.0,85.0,82.0
+Priya,5.0,85.0,88.0,90.0
+Kiran,3.0,70.0,60.0,58.0
+Meena,6.0,95.0,92.0,94.0
+Arjun,7.0,88.0,95.0,96.0
+Sneha,,92.0,90.0,91.0
+Vikram,4.0,,75.0,72.0
+Anita,5.0,86.0,,85.0
+Rohit,3.0,78.0,68.0,

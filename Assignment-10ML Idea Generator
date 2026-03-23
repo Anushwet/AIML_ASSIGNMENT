@@ -1,0 +1,69 @@
+1. College Domain
+
+Problem: Student Performance Prediction
+
+Description: Predict students’ academic performance to identify those needing extra support.
+
+Input: Attendance %, past grades, participation in activities, assignment scores, study hours.
+
+Output: Predicted final grade (A/B/C/D/F) or risk category (High/Medium/Low).
+
+Problem: Course Recommendation System
+
+Description: Recommend courses to students based on their interests and past performance.
+
+Input: Past courses taken, grades, student interests, skills, feedback ratings.
+
+Output: Top 3–5 recommended courses for the student.
+
+2. Healthcare Domain
+
+Problem: Disease Prediction
+
+Description: Predict the likelihood of a patient having a specific disease.
+
+Input: Age, gender, medical history, lifestyle factors, lab test results, symptoms.
+
+Output: Probability of disease (e.g., diabetes risk 0–1) or disease classification.
+
+Problem: Medical Image Diagnosis
+
+Description: Identify abnormalities in X-rays or MRI scans.
+
+Input: Medical images (X-ray, CT, MRI).
+
+Output: Detection of disease/condition (e.g., pneumonia: yes/no, tumor: benign/malignant).
+
+Problem: Hospital Readmission Prediction
+
+Description: Predict whether a patient is likely to be readmitted within 30 days.
+
+Input: Patient demographics, previous hospital visits, diagnosis, treatment history.
+
+Output: Readmission probability (High/Medium/Low).
+
+3. Shopping / E-commerce Domain
+
+Problem: Customer Purchase Prediction
+
+Description: Predict what products a customer is likely to buy next.
+
+Input: Past purchase history, browsing behavior, cart items, demographic info.
+
+Output: Recommended products for the customer.
+
+Problem: Customer Sentiment Analysis
+
+Description: Analyze reviews to determine customer satisfaction.
+
+Input: Text reviews from customers, ratings, timestamps.
+
+Output: Sentiment classification (Positive / Negative / Neutral) or sentiment score.
+
+Problem: Dynamic Pricing System
+
+Description: Predict optimal pricing for products based on demand and trends.
+
+Input: Product category, competitor pricing, seasonality, stock levels, demand history.
+
+Output: Recommended price for the product.
