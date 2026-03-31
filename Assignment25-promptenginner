@@ -1,0 +1,59 @@
+Prompt engineering is the process of writing clear and detailed instructions to get accurate and useful responses from an AI system
+
+1 Resume Prompt
+
+Weak Prompt
+Write a resume for me
+
+Strong Prompt
+Create a professional resume for a Computer Science engineering student with skills in Python Machine Learning and Java Include sections for education projects skills and internships Keep it within one page and use clear formatting
+
+Comparison
+The weak prompt is very vague and does not give any useful details
+The strong prompt clearly mentions the role skills structure and length so the output will be more accurate and organized
+
+2 Business Idea Prompt
+
+Weak Prompt
+Give me a business idea
+
+Strong Prompt
+Suggest a unique business idea for a college student in India with a low budget under 10000 rupees The idea should be technology based and scalable Also include target audience required resources and expected profit
+
+Comparison
+The weak prompt gives no direction so the answer may be generic
+The strong prompt provides clear conditions which leads to a practical and useful idea
+
+3 Study Plan Prompt
+
+Weak Prompt
+Make a study plan
+
+Strong Prompt
+Create a 7 day study plan for a Computer Science student preparing for exams Include 3 to 4 hours of daily study covering Data Structures Aptitude and Python Also include revision time and short breaks
+
+Comparison
+The weak prompt lacks details about time subjects and goals
+The strong prompt clearly defines duration subjects and structure making the plan more effective
+
+4 Content Writing Prompt
+
+Weak Prompt
+Write about AI
+
+Strong Prompt
+Write a 200 word explanation of Artificial Intelligence for beginners Use simple language include real life examples and keep the tone engaging
+
+Comparison
+The weak prompt is too general and unclear
+The strong prompt specifies word limit audience and tone which improves the quality of the content
+
+Key Differences Between Weak and Strong Prompts
+
+Weak prompts are unclear and do not provide enough information
+Strong prompts are specific detailed and include clear instructions
+Weak prompts lead to generic answers
+Strong prompts produce accurate structured and high quality responses
+
+Conclusion
+Strong prompts are important because they guide the AI to produce better results By giving clear instructions context and constraints we can improve the quality and usefulness of the output

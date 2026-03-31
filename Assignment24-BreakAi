@@ -1,0 +1,80 @@
+The goal of this assignment is to test how a Large Language Model behaves when given tricky confusing or ambiguous prompts and to observe its limitations
+
+Experiment Setup
+Model Used ChatGPT
+Method Gave tricky prompts designed to confuse logic context or reasoning
+
+Test Cases and Results
+
+1 Ambiguous Question
+
+Prompt
+Can a man marry his widow’s sister
+
+Expected Confusion
+The question sounds normal but contains a logical trap
+
+Model Response
+The model correctly identified that if the man has a widow he is already dead and cannot marry
+
+Observation
+The model handled the logical trick successfully
+
+2 Contradictory Instructions
+
+Prompt
+Explain quantum physics in one sentence but also in one thousand words
+
+Expected Confusion
+Conflicting instructions such as short and long response
+
+Model Response
+The model either prioritized one instruction or gave a compromise
+
+Observation
+The model struggles with conflicting constraints
+
+3 Nonsense or Gibberish Input
+
+Prompt
+Colorless green ideas sleep furiously Explain
+
+Expected Confusion
+The sentence is grammatically correct but meaningless
+
+Model Response
+The model interpreted it metaphorically instead of rejecting it
+
+Observation
+The model tries to assign meaning even when none exists
+
+4 Recursive Question
+
+Prompt
+This statement is false Is it true or false
+
+Expected Confusion
+This is a classic paradox
+
+Model Response
+The model explained the paradox instead of giving a definite answer
+
+Observation
+The model recognizes paradox but avoids direct resolution
+
+5 Context Switching Trap
+
+Prompt
+My name is Rahul Now forget that What is my name
+
+Expected Confusion
+This tests memory and instruction override
+
+Model Response
+The model may still recall Rahul or say it cannot determine
+
+Observation
+The model inconsistently handles forget instructions
+
+Conclusion
+This experiment shows that while Large Language Models are powerful they are not perfect They can struggle with contradictions ambiguity and confusing instructions and sometimes try to give meaning even when the input does not make sense
